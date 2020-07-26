@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+  
+<html> 
+<head> 
+    <title> Depression FORM </title> 
+    <link rel="stylesheet" type="text/css" href="depressed.css">
+
+    <style>
+        body {
+            background-color: blue;
+            
+            background-image: url("https://w.ndtvimg.com/sites/30/2017/04/06135954/2-11.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+        }
+    </style>
+    
+
+        
+</head>
+<body>
+
+    
+        
+    
+
+
+    
+
+
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ2wP98-jv00EmS4ZrncBYp0nAFVJDwiPJURA&usqp=CAU'>
+    <form action = "{{ url_for('depression') }}" method="POST">
+        <br>
+        <label for="rock">Enter a Paragraph Here</label>
+        <input type="input" name="gamename" placeholder = "Enter a Paragraph"> 
+        <br>
+        <br>
+
+        <button>Submit</button>
+    </form>
+
+    <form>
+
+    <!--
+    <form action = "{{ url_for('depression') }}" method="POST">
+        <br>
+        <h1> Have you been less than 6 feet distance with someone in the past two weeks?</h1>
+            
+        <label for="yes">Yes</label>
+        <input type="radio" name="q1" placeholder = "" value="YES"> 
+        <br>
+        <label for="no">No</label>
+        <input type="radio" name="q1" placeholder = "" value = "NO">
+
+        <button><h1>Submit</h1></button>
+    </form>
+</form>
+
+     
+    
+    <form action = "{{ url_for('depression') }}" method="POST">
+        <br>
+        <h1> Have you been less than 6 feet distance with someone in the past two weeks?</h1>
+            
+        <label for="">Enter a Paragraph</label>
+        <input type="input" name="thots" placeholder = "Enter a Paragraph"> 
+        <br>
+        <button><h1>Submit</h1></button>
+    </form>
+</form>
+--> 
+</body>
+</html>
